@@ -172,49 +172,38 @@ nav .fa {
     }
 }
 
-.location {
+.social {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
     background-color: #bab8af;
-    padding: 1%;
-    padding-bottom: 1.5%;
-    font-family: 'Oswald', sans-serif;
 }
 
-.contact-info {
-    padding-left: 33%;
-    margin: auto;
-    justify-content: space-between;
+.social a {
+    text-decoration: none;
 }
 
-.contact-col div{
-    position: relative;
-    display: flex;
-    float: left;
-    margin: 5px;
-}
-
-.contact-col div .fa {
-    font-size: 28px;
-    color: #232c2c;
-    margin:10px;
-    margin-right: 20px;
-}
-
-.contact-col div p {
-    padding: 0%;
-}
-
-.contact-col div h5 {
-    font-size:20px;
-    margin-bottom: 5px;
+.social .icon h5 {
     color: #b9432a;
-    font-weight: 400;
+}
+
+.social .icon p {
+    font-size: 17px;
+}
+
+.contact-col {
+    justify-content: space-between;
 }
 
 .mail-list {
     text-align: center;
-    padding-top: 50px;
     padding-bottom: 55px;
     font-family: 'Oswald', sans-serif;
+}
+
+.mail-list h1 {
+    font-family:'Alerta Stencil', sans-serif;
+    font-size: 2rem;
 }
 
 .map iframe {

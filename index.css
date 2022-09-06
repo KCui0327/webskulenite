@@ -255,6 +255,10 @@ nav .fa {
     font-family:'Alerta Stencil', sans-serif;
 }
 
+.button {
+    margin-bottom: 30px;
+}
+
 .button .hero-btn {
     display: inline-block;
     text-decoration: none;

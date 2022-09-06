@@ -129,21 +129,53 @@ nav img {
     display: inline-block;
     text-decoration: none;
     color: #bab8af;
-    padding: 15px 34px;
+    padding: 12px 34px;
+    margin:0 0 0 0;
     border: 1px solid #bab8af;
     font-size: 20px;
     background: transparent;
     position: relative;
     cursor: pointer;
-    margin-right: 20px;
 }
 
 .hero-btn:hover {
-    border: 1px solid #232c2c;
-    background: #232c2c;
-    color: #bab8af;
+    border: 1px solid #bab8af;
+    background: #bab8af;
+    color: #232c2c;
     transition: 0.5s;
 }
+
+.mail-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #bab8af;
+    padding: 15px 15px;
+    border: 1px solid #bab8af;
+    font-size: 20px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.mail-btn:hover {
+    border: 1px solid #bab8af;
+    background: #bab8af;
+    color: #232c2c;
+    transition: 0.5s;
+}
+
+.mail-list {
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+.mail-list a {
+    font-family: 'Oswald', sans-serif;
+}
+
 
 nav .fa {
     display: none;

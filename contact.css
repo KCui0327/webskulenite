@@ -1,7 +1,6 @@
 * {
     margin:0px;
     padding:0px;
-    font-family: 'Open Sans', sans-serif;
 }
 
 html, body {
@@ -29,6 +28,7 @@ nav {
     padding: 0.5% 5%;
     justify-content: space-between;
     align-items: center;
+    font-family:'Alerta Stencil',sans-serif;
 }
 
 
@@ -43,6 +43,7 @@ nav img {
 
 .title h1 {
     color: #eee5d2;
+    font-family:'Alerta Stencil',sans-serif;
 }
 
 .nav-links {
@@ -84,7 +85,8 @@ nav img {
 }
 
 .text-box h1 {
-    font-size: 62px;
+    font-size: 58px;
+    font-family:'Alerta Stencil',sans-serif;
 }
 
 .text-box .titleAnimation {
@@ -174,12 +176,7 @@ nav .fa {
     background-color: #bab8af;
     padding: 1%;
     padding-bottom: 1.5%;
-}
-
-.map {
-    width: 80%;
-    margin: auto;
-    padding-top: 70px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .contact {
@@ -188,8 +185,8 @@ nav .fa {
 }
 
 .contact-info {
-    width: 58%;
-    margin: auto;
+    width: 100%;
+    margin-left: 33%;
     justify-content: space-between;
     align-items: center;
 }
@@ -224,6 +221,7 @@ nav .fa {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 55px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .map iframe {

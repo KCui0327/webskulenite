@@ -1,7 +1,6 @@
 * {
     margin:0px;
     padding:0px;
-    font-family: 'Open Sans', sans-serif;
 }
 
 html, body {
@@ -15,47 +14,11 @@ html, body {
 .header {
     min-height: 60vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(img/about_pic_2.png);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(img/apply_pg.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
     z-index: 1;
-}
-
-.about-us{
-    background-color: #232c2c;
-    padding: 1%;
-    color: #bab8af;
-    padding-bottom: 5%;
-}
-
-.row {
-    width: 80%;
-    margin: auto;
-}
-
-.about-col {
-    flex-basis: 48%;
-    padding: 30px 0px;
-}
-
-.about-col h2 {
-    font-size: 25px;
-}
-
-.about-col p {
-    padding: 10px 0px;
-}
-
-.about-col img {
-    width: 100px;
-}
-
-@media(max-width: 1800px) {
-    .about-col {
-        flex-basis: 100%;
-        text-align: center;
-    }
 }
 
 nav {
@@ -65,6 +28,7 @@ nav {
     padding: 0.5% 5%;
     justify-content: space-between;
     align-items: center;
+    font-family:'Alerta Stencil', sans-serif;
 }
 
 nav img {
@@ -78,6 +42,7 @@ nav img {
 
 .title h1 {
     color: #eee5d2;
+    font-family: 'Alerta Stencil', sans-serif;
 }
 
 .nav-links {
@@ -119,7 +84,8 @@ nav img {
 }
 
 .text-box h1 {
-    font-size: 62px;
+    font-size: 58px;
+    font-family:'Alerta Stencil', sans-serif;
 }
 
 .text-box .titleAnimation {
@@ -143,25 +109,6 @@ nav img {
     margin: 10px 0 60px;
     font-size: 20px;
     color: #bab8af;
-}
-
-.hero-btn {
-    display: inline-block;
-    text-decoration: none;
-    color: #bab8af;
-    padding: 15px 34px;
-    border: 1px solid #bab8af;
-    font-size: 20px;
-    background: transparent;
-    position: relative;
-    cursor: pointer;
-}
-
-.hero-btn:hover {
-    border: 1px solid #232c2c;
-    background: #232c2c;
-    color: #bab8af;
-    transition: 0.5s;
 }
 
 nav .fa {
@@ -210,6 +157,37 @@ nav .fa {
     }
 }
 
+.about-us{
+    background-color: #232c2c;
+    padding: 1%;
+    color: #bab8af;
+    padding-bottom: 5%;
+}
+
+.row {
+    width: 80%;
+    margin: auto;
+}
+
+.about-col {
+    flex-basis: 48%;
+    padding: 30px 0px;
+}
+
+.about-col h2 {
+    font-size: 25px;
+    font-family:'Alerta Stencil', sans-serif;
+}
+
+.about-col p {
+    padding: 10px 0px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.about-col img {
+    width: 100px;
+}
+
 .row {
     margin-top: 5%;
     display: flex;
@@ -218,6 +196,12 @@ nav .fa {
 
 .row img {
     width: 100%;
+}
+
+@media(max-width: 1800px) {
+    .about-us .row{
+        flex-direction: column;
+    }
 }
 
 .footer {

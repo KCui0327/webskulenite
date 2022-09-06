@@ -1,7 +1,6 @@
 * {
     margin:0px;
     padding:0px;
-    font-family: 'Open Sans', sans-serif;
 }
 
 html, body {
@@ -13,7 +12,7 @@ html, body {
 }
 
 .header {
-    min-height: 100vh;
+    min-height: 60vh;
     width: 100%;
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(img/apply_pg.jpg);
     background-position: center;
@@ -36,6 +35,7 @@ nav {
     padding: 0.5% 5%;
     justify-content: space-between;
     align-items: center;
+    font-family:'Alerta Stencil', sans-serif;
 }
 
 nav img {
@@ -49,6 +49,7 @@ nav img {
 
 .title h1 {
     color: #eee5d2;
+    font-family: 'Allerta Stencil', sans-serif;
 }
 
 .nav-links {
@@ -79,6 +80,7 @@ nav img {
 }
 
 .text-box {
+    margin-top: 50px;
     width: 100%;
     color: #bab8af;
     position: absolute;
@@ -90,7 +92,9 @@ nav img {
 }
 
 .text-box h1 {
-    font-size: 62px;
+    font-size: 58px;
+    font-family:'Alerta Stencil', sans-serif;
+    padding-right: 2%;
 }
 
 .text-box .status {
@@ -118,6 +122,7 @@ nav img {
     margin: 10px 0 60px;
     font-size: 20px;
     color: #bab8af;
+    font-family: 'Oswald', sans-serif;
 }
 
 .hero-btn {
@@ -184,6 +189,41 @@ nav .fa {
     .nav-links ul {
         padding: 30px;
     }
+}
+
+.apply {
+    background-color: #232c2c;
+    padding: 1%;
+    color: #bab8af;
+    padding-bottom: 5%;
+}
+
+.calendar {
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 70px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.dates {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.dates h1 {
+    font-family:'Alerta Stencil', sans-serif;
+    font-size: 2rem;
+}
+
+.dates h3 {
+    font-family:'Alerta Stencil', sans-serif;
+    font-size: 1.2rem;
+}
+
+.dates li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
 }
 
 .footer {

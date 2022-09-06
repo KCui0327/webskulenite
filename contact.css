@@ -195,6 +195,14 @@ nav .fa {
     justify-content: space-between;
 }
 
+.social .icon h5 {
+    font-family:'Alerta Stencil',sans-serif;
+}
+
+.social .icon p {
+    font-family: 'Oswald', sans-serif;
+}
+
 .mail-list {
     text-align: center;
     padding-bottom: 55px;

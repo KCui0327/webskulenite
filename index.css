@@ -185,11 +185,6 @@ nav .fa {
     font-family:'Alerta Stencil', sans-serif;
 }
 
-.theme .wrapper iframe, object, embed {
-    max-width: 100%;
-}
-
-
 @media(max-width: 1100px) {
     .learn .row{
         flex-direction: column;
@@ -264,6 +259,10 @@ nav .fa {
     font-size: 50px;
     padding-bottom: 15px;
     font-family:'Alerta Stencil', sans-serif;
+}
+
+.theme .wrapper iframe, object, embed {
+    max-width: 100%;
 }
 
 .button {

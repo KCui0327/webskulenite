@@ -179,22 +179,15 @@ nav .fa {
     font-family: 'Oswald', sans-serif;
 }
 
-.contact {
-    background-color: #374c50;
-    padding: 1%;
-}
-
 .contact-info {
-    width: 100%;
-    margin-left: 33%;
+    padding-left: 33%;
+    margin: auto;
     justify-content: space-between;
-    align-items: center;
 }
 
 .contact-col div{
     position: relative;
     display: flex;
-    align-items: center;
     float: left;
     margin: 5px;
 }

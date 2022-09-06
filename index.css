@@ -185,10 +185,21 @@ nav .fa {
     font-family:'Alerta Stencil', sans-serif;
 }
 
+.theme .wrapper iframe, object, embed {
+    max-width: 100%;
+}
+
 
 @media(max-width: 1100px) {
     .learn .row{
         flex-direction: column;
+    }
+
+    .theme .iframe {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        padding-top: 62.5%;
     }
 }
 

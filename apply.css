@@ -200,7 +200,7 @@ nav .fa {
     .nav-links {
         position: absolute;
         background: #b9432a;
-        height: 100vh;
+        height: 100%;
         width: 200px;
         top: 0;
         right: -200px;
@@ -227,35 +227,81 @@ nav .fa {
     background-color: #232c2c;
     padding: 1%;
     color: #bab8af;
-    padding-bottom: 5%;
-}
-
-.calendar {
-    width: 800px;
-    margin: 0 auto;
-    padding-top: 70px;
-    font-family: 'Oswald', sans-serif;
+    padding-bottom: 3%;
 }
 
 .dates {
-    width: 100%;
-    margin: 0 auto;
+    width: 80%;
+    margin: auto;
     text-align: center;
 }
 
-.dates h1 {
-    font-family:'Alerta Stencil', sans-serif;
-    font-size: 2rem;
-}
-
-.dates h3 {
-    font-family:'Alerta Stencil', sans-serif;
-    font-size: 1.2rem;
-}
-
-.dates li {
+.dates .title h1 {
+    font-size: 2.5rem;
+    color: #bab8af;
     font-family: 'Oswald', sans-serif;
-    font-size: 17px;
+    padding: 20px 0;
+}
+
+.dates p {
+    font-size: 1.0rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.dates .title p  {
+    font-size: 1.1rem;
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 5px;
+}
+
+.dates .row {
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dates h2 {
+    text-align: center;
+    padding: 10px;
+    color: #eee5d2;
+}
+
+.dates .row .dates-col ul {
+    text-align: center;
+}
+
+.dates .row .dates-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.dates .row .dates-col img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.dates .row .dates-col .button {
+    padding: 5%;
+    text-align: center;
+}
+
+.dates .row .dates-col h3 {
+    text-align: center;
+    padding: 10px;
+}
+
+.dates .row .dates-col p {
+    text-align: center;
+    padding: 10px;
+}
+
+@media(max-width: 800px) {
+    .dates .row{
+        flex-direction: column;
+    }
+
 }
 
 .footer {

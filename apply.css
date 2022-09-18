@@ -136,6 +136,7 @@ nav img {
     background: transparent;
     position: relative;
     cursor: pointer;
+    font-family: 'Oswald', sans-serif;
 }
 
 .hero-btn:hover {
@@ -145,30 +146,9 @@ nav img {
     transition: 0.5s;
 }
 
-.mail-btn {
-    display: inline-block;
-    text-decoration: none;
-    color: #bab8af;
-    padding: 15px 15px;
-    border: 1px solid #bab8af;
-    font-size: 20px;
-    background: transparent;
-    position: relative;
-    cursor: pointer;
-    margin-top: 20px;
-    margin-right: 10px;
-}
-
-.mail-btn:hover {
-    border: 1px solid #bab8af;
-    background: #bab8af;
-    color: #232c2c;
-    transition: 0.5s;
-}
-
 .mail-list {
     text-align: center;
-    padding-top: 30px;
+    padding-top: 15px;
     
 }
 
@@ -299,6 +279,39 @@ nav .fa {
         flex-direction: column;
     }
 
+}
+
+.mail-list {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.mail-list h1 {
+    font-family:'Alerta Stencil', sans-serif;
+    font-size: 2rem;
+    color: #eee5d2;
+}
+
+.mail-list .hero-btn {
+    font-family: 'Oswald', sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    color: #bab8af;
+    padding: 15px 15px;
+    border: 1px solid #bab8af;
+    font-size: 20px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.mail-list .hero-btn:hover {
+    border: 1px solid #bab8af;
+    background: #bab8af;
+    color: #232c2c;
+    transition: 0.5s;
 }
 
 .footer {

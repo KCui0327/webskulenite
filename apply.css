@@ -238,14 +238,9 @@ nav .fa {
 
 .dates .title h1 {
     font-size: 2.5rem;
-    color: #bab8af;
-    font-family: 'Oswald', sans-serif;
+    color: #eee5d2;
+    font-family:'Alerta Stencil', sans-serif;
     padding: 20px 0;
-}
-
-.dates p {
-    font-size: 1.0rem;
-    font-family: 'Oswald', sans-serif;
 }
 
 .dates .title p  {
@@ -264,10 +259,12 @@ nav .fa {
     text-align: center;
     padding: 10px;
     color: #eee5d2;
+    font-family:'Alerta Stencil', sans-serif;
 }
 
 .dates .row .dates-col ul {
     text-align: center;
+    font-family: 'Oswald', sans-serif;
 }
 
 .dates .row .dates-col {

@@ -284,6 +284,7 @@ nav .fa {
 .mail-list {
     text-align: center;
     font-family: 'Oswald', sans-serif;
+    margin-bottom: 30px;
 }
 
 .mail-list h1 {
@@ -303,11 +304,38 @@ nav .fa {
     background: transparent;
     position: relative;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-right: 10px;
 }
 
 .mail-list .hero-btn:hover {
+    border: 1px solid #bab8af;
+    background: #bab8af;
+    color: #232c2c;
+    transition: 0.5s;
+}
+
+.writer-btn {
+    text-align: center;
+    margin-left: 14px;
+}
+
+.writer-btn .hero-btn {
+    font-family: 'Oswald', sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    color: #bab8af;
+    padding: 15px 15px;
+    border: 1px solid #bab8af;
+    font-size: 20px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.writer-btn .hero-btn:hover {
     border: 1px solid #bab8af;
     background: #bab8af;
     color: #232c2c;

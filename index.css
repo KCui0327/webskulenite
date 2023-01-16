@@ -133,6 +133,26 @@ nav img {
     transition: 0.5s;
 }
 
+.ticket-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #bab8af;
+    padding: 15px 34px;
+    border: 1px solid #bab8af;
+    font-size: 20px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.ticket-btn:hover {
+    border: 1px solid #232c2c;
+    background: #232c2c;
+    color: #bab8af;
+    transition: 0.5s;
+}
+
 nav .fa {
     display: none;
 }

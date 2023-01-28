@@ -137,9 +137,9 @@ nav img {
     display: inline-block;
     text-decoration: none;
     color: #bab8af;
-    padding: 15px 34px;
-    border: 1px solid #bab8af;
-    font-size: 20px;
+    padding: 45px 85px;
+    border: 3px solid #bab8af;
+    font-size: 30px;
     background: transparent;
     position: relative;
     cursor: pointer;
@@ -147,8 +147,8 @@ nav img {
 }
 
 .ticket-btn:hover {
-    border: 1px solid #232c2c;
-    background: #232c2c;
+    border: 3px solid #b9432a;
+    background: #b9432a;
     color: #bab8af;
     transition: 0.5s;
 }

@@ -34,6 +34,8 @@
             <li><a href="about.html">ABOUT</a></li>
             <li><a href="apply.html">Get Involved</a></li>
             <li><a href="contact.html">Contact</a></li>
+            <li><a href="https://harthouse.ca/theatre/show/skule-nite-2t3" onmouseover="confetti()">Tickets</a></li>
+          <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdRO_Ne1wX6Ez92WxFZFY3NA1Ub5je--4dVxma3A523dqfCYA/viewform">Frosh</a></li>
         </ul>
       </div>
       <i class="fa fa-bars" onclick="showMenu()"></i>
@@ -101,6 +103,21 @@
         function hideMenu(){
           navLinks.style.right = "-200px";
         }
+
+        
+        const jsConfetti = new JSConfetti()
+
+        function confetti() {
+          jsConfetti.addConfetti();
+        }
+    
+        document.querySelector('.button').addEventListener('click', confetti);
+    
+        function hideButton(button) {
+          button.style.display = "none";
+          document.getElementById("themeDiv").style.display = "block";
+        }
+        
     
         let textWrapper = document.querySelector('.titleAnimation .letters');
         textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");

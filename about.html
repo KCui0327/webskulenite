@@ -35,6 +35,8 @@
           <li><a href="about.html">ABOUT</a></li>
           <li><a href="apply.html">Get Involved</a></li>
           <li><a href="contact.html">Contact</a></li>
+          <li><a href="https://harthouse.ca/theatre/show/skule-nite-2t3" onmouseover="confetti()">Tickets</a></li>
+          <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdRO_Ne1wX6Ez92WxFZFY3NA1Ub5je--4dVxma3A523dqfCYA/viewform">Frosh</a></li>
         </ul>
       </div>
       <i class="fa fa-bars" onclick="showMenu()"></i>
@@ -68,7 +70,7 @@
                       one year during World War II (1942), and and for 4 years in the early 1970s when 
                       an attempt to replace Skule Nite with a broadway musical "Stop the World, I Want to 
                       Get Off" flopped miserably. After its return in 1973, Skule Nite has been a raging success, with 
-                      an unbroken run of shows, generally including 5 performances over 4 4nights performed at Hart House. 
+                      an unbroken run of shows, generally including 5 performances over 4 nights performed at Hart House. 
                       In its most recent history, Skule Nite has also taken the format of two filmed productions in 2021 
                       and 2022 during the COVID-19 pandemic.
                     </p>
@@ -127,6 +129,19 @@
 
         var slideIndex = 0;
         carousel();
+
+        const jsConfetti = new JSConfetti()
+
+        function confetti() {
+          jsConfetti.addConfetti();
+        }
+    
+        document.querySelector('.button').addEventListener('click', confetti);
+    
+        function hideButton(button) {
+          button.style.display = "none";
+          document.getElementById("themeDiv").style.display = "block";
+        }
         
         function carousel() {
           let i;

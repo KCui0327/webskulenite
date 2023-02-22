@@ -14,13 +14,13 @@ html, body {
 /* Header */
 
 .header {
-    min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(img/home_pic.jpg);
-    background-position: center;
-    background-size: cover;
     position: relative;
     z-index: 1;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),url(img/home_pic.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
 }
 
 nav {
@@ -39,13 +39,31 @@ nav img {
 }
 
 .title {
-    padding: 10px;
     font-size: 1.8rem;
 }
 
 .title h1 {
     color: #eee5d2;
     font-family:'Alerta Stencil',sans-serif;
+}
+
+
+.banner {
+    margin-top: 1.5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner div {
+    flex-basis: 75%;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .poster {
+    display: flex;
 }
 
 .nav-links {
@@ -75,43 +93,106 @@ nav img {
     color: #b9432a;
 }
 
-.text-box {
-    padding-top: 100px;
+.banner-text {
     width: 100%;
     color: #bab8af;
-    text-align: center;
-    z-index: -2;
 }
 
-.text-box h1 {
+.banner-text  h1 {
     font-size: 58px;
-    padding-bottom: 20px;
-    z-index: -2;
 }
 
-.text-box .titleAnimation {
-    position: relative;
+.banner-text  .title {
     font-weight: 900;
     font-size: 3.3em;
-  }
-  
-.text-box .titleAnimation .text-wrapper {
-    position: relative;
-    display: inline-block;
-    overflow: hidden;
-}
-
-.text-box .titleAnimation .letters {
-    display: inline-block;
     font-family:'Alerta Stencil',sans-serif;
-    line-height: 1em;
+    margin: 2% 0;
 }
 
-.text-box p {
-    margin: 10px 0 60px;
+.banner-text  p {
     font-size: 20px;
     color: #bab8af;
     font-family: 'Oswald', sans-serif;
+    margin: 2% 0;
+}
+
+.banner-text h2 {
+    font-weight: 900;
+    font-size: 2em;
+    margin: 2% 0;
+}
+.banner-text ul {
+    margin: 0.5% 2%;
+}
+
+.banner-text ul li {
+    font-family: 'Oswald', sans-serif;
+    padding: 8px 12px;
+    padding-bottom: 5px;
+    position: relative;
+    margin: 20px;
+    font-size: 18px;
+}
+
+
+.hart-house{
+    background-color: #232c2c;
+    padding: 5%;
+    color: #bab8af;
+}
+
+.hart-house .row {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+  }
+  
+  .hart-house .about-col {
+    flex-basis: 50%;
+    text-align: center;
+  }
+
+  .hart-house a {
+    font-weight: 500px; 
+    color: #b9432a;
+    text-decoration: none;
+  }
+  
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row img {
+    width: 75%;
+}
+
+.col {
+    flex-basis: 38%;
+    padding: 40px 0px;
+}
+
+.col h2 {
+    font-size: 25px;
+    color: #eee5d2;
+    font-family:'Alerta Stencil', sans-serif;
+}
+
+.col p {
+    padding: 10px 0px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.col img {
+    width: 100px;
 }
 
 .hero-btn {
@@ -137,13 +218,13 @@ nav img {
     display: inline-block;
     text-decoration: none;
     color: #bab8af;
-    padding: 125px 200px;
+    padding: 25px 45px;
     border: 3px solid #bab8af;
-    font-size: 80px;
+    font-size: 20px;
     background: transparent;
     position: relative;
     cursor: pointer;
-    margin-bottom: 50px;
+    margin: 2% 0;
 }
 
 .ticket-btn:hover {
@@ -157,6 +238,10 @@ nav .fa {
     display: none;
 }
 
+.learn-section {
+    background-color: #bab8af;
+}
+
 .learn {
     display: flex;
     justify-content: center;
@@ -164,7 +249,6 @@ nav .fa {
     flex-wrap: wrap;
     margin: 0 auto;
     width: 80%;
-    background-color: transparent;
 }
 
 .learn-sections {
@@ -174,7 +258,7 @@ nav .fa {
 }
 
 .learn .learn-sections .row{
-    margin-top: 1%;
+    margin-top: 3%;
     display: flex;
     justify-content: space-between;
 }
@@ -205,7 +289,7 @@ nav .fa {
     font-family:'Alerta Stencil', sans-serif;
 }
 
-@media(max-width: 1100px) {
+@media(max-width: 1400px) {
     .learn .row{
         flex-direction: column;
     }
@@ -219,6 +303,21 @@ nav .fa {
 }
 
 @media(max-width: 1100px) {
+
+    .hart-house .row{
+        flex-direction: column;
+    }
+
+    .banner {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hart-house .about-col {
+        flex-basis: 100%;
+        text-align: center;
+        margin: 1%;
+    }
 
     .logo{
         display: none;
@@ -259,25 +358,6 @@ nav .fa {
         padding: 30px;
     }
 
-    .ticket-btn {
-        display: inline-block;
-        text-decoration: none;
-        color: #bab8af;
-        padding: 50px 100px;
-        border: 3px solid #bab8af;
-        font-size: 80px;
-        background: transparent;
-        position: relative;
-        cursor: pointer;
-        margin-bottom: 50px;
-    }
-    
-    .ticket-btn:hover {
-        border: 3px solid #b9432a;
-        background: #b9432a;
-        color: #bab8af;
-        transition: 0.5s;
-    }
 }
 
 @media(max-width: 800px) {
@@ -321,25 +401,7 @@ nav .fa {
         padding: 30px;
     }
 
-    .ticket-btn {
-        display: inline-block;
-        text-decoration: none;
-        color: #bab8af;
-        padding: 34px 40px;
-        border: 3px solid #bab8af;
-        font-size: 80px;
-        background: transparent;
-        position: relative;
-        cursor: pointer;
-        margin-bottom: 50px;
-    }
-    
-    .ticket-btn:hover {
-        border: 3px solid #b9432a;
-        background: #b9432a;
-        color: #bab8af;
-        transition: 0.5s;
-    }
+
 }
 
 /* Theme */
@@ -406,6 +468,3 @@ nav .fa {
     padding: 18px 0;
     justify-content: space-between;
 }
-
-
-

@@ -167,6 +167,9 @@ nav .fa {
 .row {
     width: 80%;
     margin: auto;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .about-col {
@@ -187,12 +190,6 @@ nav .fa {
 
 .about-col img {
     width: 100px;
-}
-
-.row {
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
 }
 
 .row img {

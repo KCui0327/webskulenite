@@ -130,6 +130,40 @@ nav .fa {
     display: none;
 }
 
+@media(max-width: 1400px) {
+    .nav-links ul li {
+        display: block;
+    }
+    .nav-links ul li:hover::after {
+        width: 75%;
+        transition: 0.5s;
+    }
+    .nav-links {
+        position: absolute;
+        background: #b9432a;
+        height: 100%;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 999;
+        transition: 1s;
+        text-align: center;
+    }
+    nav .fa {
+        display: block;
+        color: #bab8af;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+        text-align: left;
+    }
+
+    .nav-links ul {
+        padding: 30px;
+    }
+}
+
 @media(max-width: 1100px) {
 
     .logo{
@@ -146,10 +180,42 @@ nav .fa {
         width: 75%;
         transition: 0.5s;
     }
+
+    .nav-links ul li a:hover {
+        color: #bab8af;
+    }
     .nav-links {
         position: absolute;
         background: #b9432a;
         height: 60vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 999;
+        transition: 1s;
+        text-align: center;
+    }
+    nav .fa {
+        display: block;
+        color: #bab8af;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+        text-align: left;
+    }
+
+    .nav-links ul li {
+        display: block;
+    }
+    .nav-links ul li:hover::after {
+        width: 75%;
+        transition: 0.5s;
+    }
+    .nav-links {
+        position: absolute;
+        background: #b9432a;
+        height: 100%;
         width: 200px;
         top: 0;
         right: -200px;

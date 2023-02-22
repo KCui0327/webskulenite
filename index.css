@@ -136,9 +136,9 @@ nav img {
 
 
 .hart-house{
-    background-color: #232c2c;
+    background-color: #bab8af;
     padding: 5%;
-    color: #bab8af;
+    color: #232c2c;
 }
 
 .hart-house .row {
@@ -219,9 +219,9 @@ nav img {
     text-decoration: none;
     color: #bab8af;
     padding: 25px 45px;
-    border: 3px solid #bab8af;
+    border: 3px solid #b9432a;
     font-size: 20px;
-    background: transparent;
+    background: #b9432a;
     position: relative;
     cursor: pointer;
     margin: 2% 0;

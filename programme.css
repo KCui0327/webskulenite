@@ -209,6 +209,30 @@ nav .fa {
     color: #bab8af;
     padding-bottom: 3%;
   }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .exec-col {
+    flex: 0 0 300px; /* adjust the width as needed */
+  }
+  
+  .col-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .dates-col {
+    flex: 0 0 calc(25% - 20px); /* adjust the width and margin as needed */
+    margin: 0 10px 10px 0;
+  }
+  
+  .dates-col:last-child {
+    margin-right: 0;
+  }
+  
   
   .dates {
     width: 80%;

@@ -18,7 +18,7 @@ html, body {
     position: relative;
     z-index: 1;
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),url(img/home_pic.jpg);
-    min-height: 100vh;
+    min-height: 102vh;
     background-position: center;
     background-size: cover;
 }

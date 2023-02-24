@@ -320,7 +320,6 @@ nav .fa {
 
   .dates .row-exec .dates-col-exec img {
     width: 100%;
-    display: flex;
     border-radius: 10px;
     transition: filter 0.3s ease;
   }

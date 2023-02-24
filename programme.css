@@ -201,6 +201,7 @@ nav .fa {
     .nav-links ul {
         padding: 30px;
     }
+    
 }
 
 .apply {
@@ -214,10 +215,11 @@ nav .fa {
     display: flex;
     flex-wrap: wrap;
   }
-  
-  .exec-col {
-    flex: 0 0 300px; /* adjust the width as needed */
+
+  .row-exec {
+    display: flex;
   }
+
   
   .col-wrapper {
     display: flex;
@@ -228,11 +230,17 @@ nav .fa {
     flex: 0 0 calc(25% - 20px); /* adjust the width and margin as needed */
     margin: 0 10px 10px 0;
   }
+
+  .dates-col-exec {
+    flex: 0 0 calc(25% - 20px); /* adjust the width and margin as needed */
+    margin: 0 10px 10px 0;
+  }
+  
   
   .dates-col:last-child {
     margin-right: 0;
   }
-  
+
   
   .dates {
     width: 80%;
@@ -258,6 +266,12 @@ nav .fa {
     display: flex;
     justify-content: space-between;
   }
+
+  .dates .row-exec {
+    margin-top: 1%;
+    display: flex;
+    justify-content:    space-between;
+  }
   
   .dates h2 {
     text-align: center;
@@ -267,6 +281,11 @@ nav .fa {
   }
   
   .dates .row .dates-col ul {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .dates .row-exec .dates-col ul {
     text-align: center;
     font-family: 'Oswald', sans-serif;
   }
@@ -281,14 +300,37 @@ nav .fa {
     justify-content: center;
     align-items: center;
   }
+
+  .dates .row-exec .dates-col-exec {
+    flex-basis: 50%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: left;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   
   .dates .row .dates-col img {
     width: 100%;
     border-radius: 10px;
     transition: filter 0.3s ease;
   }
+
+  .dates .row-exec .dates-col-exec img {
+    width: 100%;
+    display: flex;
+    border-radius: 10px;
+    transition: filter 0.3s ease;
+  }
   
   .dates .row .dates-col .button {
+    padding: 5%;
+    text-align: center;
+  }
+
+  .dates .row-exec .dates-col-exec .button {
     padding: 5%;
     text-align: center;
   }
@@ -309,6 +351,18 @@ nav .fa {
     transition: opacity 0.3s ease;
     font-family: 'Oswald', sans-serif;
   }
+
+  .dates .row-exec .dates-col-exec p {
+    text-align: center;
+    padding: 10px;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.3s ease;
+    font-family: 'Oswald', sans-serif;
+  }
   
   .dates .row .dates-col:hover img {
     filter: brightness(50%);
@@ -317,7 +371,14 @@ nav .fa {
   .dates .row .dates-col:hover p {
     opacity: 1;
   }
+
+  .dates .row-exec .dates-col-exec:hover img {
+    filter: brightness(50%);
+  }
   
+  .dates .row-exec .dates-col-exec:hover p {
+    opacity: 1;
+  }
 
 @media(max-width:1400px) {
     .nav-links ul li {
